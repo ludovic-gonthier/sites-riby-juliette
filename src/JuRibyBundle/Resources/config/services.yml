@@ -1,0 +1,10 @@
+parameters:
+    ju_riby.projects.folder: 'Resources/projects/'
+
+services:
+    ju_riby.finder:
+        class: Symfony\Component\Finder\Finder
+
+    ju_riby.projects:
+        class: JuRibyBundle\Services\Projects
+        arguments: ['@ju_riby.finder', '%ju_riby.projects.folder%']

@@ -1,0 +1,4 @@
+ju_riby:
+    resource: "@JuRibyBundle/Resources/config/routing.yml"
+    prefix:   /
+

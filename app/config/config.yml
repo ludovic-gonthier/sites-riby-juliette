@@ -2,6 +2,7 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: "@JuRibyBundle/Resources/config/services.yml" }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -72,3 +73,13 @@ assetic:
     use_controller: '%kernel.debug%'
     filters:
         cssrewrite: ~
+    assets:
+        aracne_light:
+            inputs: '@JuRibyBundle/Resources/public/css/fonts/aracne_light.otf'
+            output: 'css/fonts/aracne_light.otf'
+        avenir_next_condensed:
+            inputs: '@JuRibyBundle/Resources/public/css/fonts/avenir_next_condensed.ttf'
+            output: 'css/fonts/avenir_next_condensed.ttf'
+        myriad_pro_condensed:
+            inputs: '@JuRibyBundle/Resources/public/css/fonts/myriadpro_condensed.otf'
+            output: 'css/fonts/myriadpro_condensed.otf'
