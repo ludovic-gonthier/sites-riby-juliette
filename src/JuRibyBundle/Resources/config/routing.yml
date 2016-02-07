@@ -1,6 +1,9 @@
-ju_riby_projects:
-    path:     /{project}
-    defaults: { _controller: JuRibyBundle:Default:projects, project: 0 }
+ju_riby_homepage:
+    path:     /
+    defaults: { _controller: JuRibyBundle:Default:homepage }
+ju_riby_project:
+    path:     /project/{project}
+    defaults: { _controller: JuRibyBundle:Default:project }
 ju_riby_a_propos:
     path:     /a_propos/
     defaults: { _controller: JuRibyBundle:Default:aPropos }

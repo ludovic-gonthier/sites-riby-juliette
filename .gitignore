@@ -17,3 +17,5 @@
 /web/css/
 /web/images/
 /web/js/
+src/JuRibyBundle/Resources/public/images/projects/
+src/JuRibyBundle/Resources/public/pdf/

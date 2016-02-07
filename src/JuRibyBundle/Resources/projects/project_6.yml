@@ -1,0 +1,12 @@
+project:
+    name: 'En action.'
+    description: 'Jardinage, bricolage, image.'
+    year: '2010-13'
+    number: 6
+    text: 'Travailler l’espace c’est aussi se confronter à la pratique du jardinage et à la construction. Réalisation de muret en pierres sèches, taille et élagage : utiliser le vivant pour se façonner un abri. C’est également toucher différents publics par des pratiques plus artistiques et parfois se mettre en scène : Le corps point de vue (rencontre chorégraphiques de Seine St Denis); Cartographie, son et dessin. Scénographie de l’exposition Avant-Post.'
+    visuals:
+        1: { type: 'picture' }
+        2: { type: 'picture' }
+        3: { type: 'picture' }
+        4: { type: 'picture' }
+        5: { type: 'picture' }

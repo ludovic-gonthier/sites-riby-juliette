@@ -1,0 +1,21 @@
+project:
+    name: 'Saisir - Être saisi.'
+    description: 'La Digue d’Alfortville.'
+    year: '2013'
+    number: 1
+    text: 'Ce travail s’intéresse de manière générale à la dimension exploratoire, au fait de ne pas savoir où l’on va avant de commencer : découvrir un site de l’intérieur, avec des outils qui nous sont propres, se laisser saisir puis s’en emparer à notre tour. Ce que je voulais pour mon diplôme, c’était saisir l’espace, le paysage, un site avec une sensibilité aux sons, et aux seuils. Le site d’Alfortville a vu naître mes expérimentations. Après une lecture de l’espace je me suis lancée dans une nouvelle phase exploratoire, celle du son qui fait projet. C’est par la manipulation de la matière, sa transformation que j’ai testé l’espace. C’est une recherche d’équilibre, de seuil, d’échange entre les différentes atmosphères ressenties, ambiances imaginées.'
+    visuals:
+        1: { type: 'video', source: 'https://player.vimeo.com/video/85435802' }
+        2: { type: 'picture' }
+        3: { type: 'picture' }
+        4: { type: 'picture' }
+        5: { type: 'picture' }
+        6: { type: 'picture' }
+        7: { type: 'picture' }
+        8: { type: 'picture' }
+        9: { type: 'picture' }
+        10: { type: 'picture' }
+        11: { type: 'picture' }
+        12: { type: 'sound', source: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130854380%3Fsecret_token%3Ds-SUkDa&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true' }
+        13: { type: 'picture' }
+        14: { type: 'picture' }

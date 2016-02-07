@@ -1,6 +1,6 @@
 {%
 set menus = [
-    { 'label': 'PROJECTS', 'route': 'ju_riby_projects' },
+    { 'label': 'PROJECTS', 'route': 'ju_riby_homepage' },
     { 'label': 'À PROPOS', 'route': 'ju_riby_a_propos' },
     { 'label': 'CONTACT', 'route': 'ju_riby_contact' },
 ]
@@ -11,12 +11,13 @@ set menus = [
     <head>
         {% block metas %}{% endblock %}
 
+        {% block scripts %}
         {% javascripts
             '@JuRibyBundle/Resources/public/js/*'
         %}
         <script src="{{ asset_url }}" ></script>
         {% endjavascripts %}
-        {% block scripts %}{% endblock %}
+        {% endblock %}
 
         {% stylesheets
             'bundles/juriby/css/reset.css'
@@ -32,8 +33,8 @@ set menus = [
     </head>
 
     <body>
-        <header>
         {% block header %}
+        <header>
             <h1>RIBY JULIETTE</h1>
             {% for menu in menus %}
             <a href="{{ path(menu.route) }}">
@@ -45,8 +46,8 @@ set menus = [
                 </h2>
             </a>
             {% endfor %}
-        {% endblock %}
         </header>
+        {% endblock %}
 
         {% block body %}{% endblock %}
     </body>

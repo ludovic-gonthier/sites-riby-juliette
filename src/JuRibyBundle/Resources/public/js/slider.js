@@ -1,6 +1,6 @@
 (function($){
 	/*
-	
+
 	 */
 	$.fn.slider = function(){
         var _this = this;
@@ -12,11 +12,13 @@
         var display = $(_this).find(".display");
 
         function center_image(element){
-            margin_x = (MAX_WIDTH - element.width()) / 2;
-            margin_y = (MAX_HEIGHT - element.height()) / 2;
-            element.css({"padding" : margin_y + "px " + margin_x + "px"});
+            var margin_x = (MAX_WIDTH - element.width()) / 2;
+            var margin_y = (MAX_HEIGHT - element.height()) / 2;
+
+            element[0].style.marginLeft = margin_x + "px";
+            element[0].style.marginTop = margin_y + "px";
         }
-        function    dispatch_media_render(element){
+        function dispatch_media_render(element){
             function loading(element){
                 element.addClass("loading");
             }
@@ -29,7 +31,6 @@
                 });
             }
             function render_picture(element){
-                
                 function resize_and_center_image(element){
                     var img_w = element.width(),
                         img_h = element.height(),
@@ -44,34 +45,33 @@
                             element.width(ratio_h * img_w).height(ratio_h * img_h);
                         }
                         center_image(element);
+
                         return true;
                     }
                     if (img_w > MAX_WIDTH) {
                         element.width(ratio_w * img_w).height(ratio_w * img_h);
-                    }
-                    else if (img_h > MAX_HEIGHT){
+                    } else if (img_h > MAX_HEIGHT) {
                         element.width(ratio_h * img_w).height(ratio_h * img_h);
                     }
-                    center_image(element);   
+
+                    center_image(element);
+
                     return false;
                 }
                 loading(display);
-                console.log("render_picture()");
                 display.empty();
-                $("#loading_image").attr("src", element.attr("data-url"))
-                                   .on("load", function(){
+                $("#loading_image")
+                    .attr("src", element.attr("data-url"))
+                    .on("load", function() {
                     loaded(display);
-                    console.log("image loaded");
                     resize_and_center_image($(this));
                     display.append($(this).removeAttr("id"));
-                    console.log();
                     resize_nav_arrows($(this).outerHeight());
                     $("<img id='loading_image'/>").insertBefore($("#project"));
                 });
             }
             function render_video(element){
                 loading(display);
-                console.log("render_video()");
                 display.empty()
                        .append('<iframe width="' + MAX_WIDTH + '"\
                                          height="' + MAX_HEIGHT + '"\
@@ -84,7 +84,6 @@
             }
             function render_sound(element){
                 loading(display);
-                console.log("render_sound()");
                 display.empty()
                        .append('<iframe width="' + MAX_WIDTH + '"\
                                          height="' + MAX_HEIGHT + '"\
@@ -95,8 +94,6 @@
                 resize_nav_arrows(MAX_HEIGHT);
                 loaded(display);
             }
-            console.log("Trying to load element...");
-            console.log("--- Type: " + element.attr("data-type"));
             switch (element.attr("data-type")){
                 case "video":
                     render_video(element);
@@ -111,10 +108,6 @@
         }
 
         function resize_display_panel(){
-            function center_visuals_container(){
-
-            }
-            console.log("reszie");
             var desc_w = $("#project .description").outerWidth(),
                 wind_w = $(window).width(),
                 nav_w = $("#project .render .nav").width();
@@ -131,9 +124,10 @@
                 width : MAX_WIDTH,
                 height : MAX_HEIGHT
             });
+            console.log('resizing');
             center_image($("#project .render .display").children().first());
         }
-		
+
         function bind_navigation_events(element){
             function	next(element){
                 var to_load = element.next();
@@ -171,7 +165,9 @@
 
         resize_display_panel();
         bind_navigation_events($(this));
-        $(this).find(".container .element.selected").click();
+        display.find('.img').on('load', function () {
+            $(this).find(".container .element.selected").click();
+        }.bind(this));
 		return this;
 	};
 

@@ -5,12 +5,17 @@
 
 @font-face {
     font-family: Avenir Next condensed;
-    src: url(fonts/avenir_next_condensed.ttf);
+    src: url(fonts/avenir_next_condensed.otf);
 }
 
 @font-face {
     font-family: Avenir Next condensed Ultra Light;
     src: url(fonts/avenir_next_condensed_ultra_light.otf);
+}
+
+@font-face {
+    font-family: Avenir Next condensed italic;
+    src: url(fonts/avenir_next_condensed_italic.otf);
 }
 
 @font-face {
