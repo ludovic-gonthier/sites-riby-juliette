@@ -158,20 +158,21 @@ body #core.contact{
 }
 body #core.contact .info{
 	margin-top : 136px;
-	padding-top : 17px;
-	font-size : 24pt;
+	padding : 17px;
+	font-size : 28pt;
 	padding-left : 20px;
 	font-family : Avenir Next condensed Ultra Light;
+    background-color: white;
 }
 body #core.contact .info .job{
-	font-size : 17pt;
+	font-size : 20pt;
 	margin-top : 2px;
 }
 body #core.contact .info .mail{
-	margin-top : -9px;
+	margin-top : 9px;
 }
 body #core.contact .info .adress{
-	margin-top : -16px;
+	margin-top : 18px;
 }
 body #core.contact .img{
 	margin-top : 19px;

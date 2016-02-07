@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: Avenir Next condensed Ultra Light;
+    src: url(fonts/avenir_next_condensed_ultra_light.otf);
+}
+
+@font-face {
     font-family: Myriad Pro Condensed;
     src: url(fonts/myriadpro_condensed.otf);
 }

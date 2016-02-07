@@ -29,7 +29,7 @@ class DefaultController extends Controller
     public function contactAction()
     {
         return $this->render(
-            'JuRibyBundle:Projects:index.html.twig',
+            'JuRibyBundle:Contact:index.html.twig',
             array(
                 '_menu' => array('selected' => 'contact')
             )

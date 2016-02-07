@@ -19,9 +19,10 @@ set menus = [
         {% block scripts %}{% endblock %}
 
         {% stylesheets
-            '@JuRibyBundle/Resources/public/css/reset.css'
-            '@JuRibyBundle/Resources/public/css/fonts.css'
-            '@JuRibyBundle/Resources/public/css/core.css'
+            'bundles/juriby/css/reset.css'
+            'bundles/juriby/css/fonts.css'
+            'bundles/juriby/css/core.css'
+            filter="cssrewrite"
         %}
         <link rel="stylesheet" href="{{ asset_url }}" />
         {% endstylesheets %}
