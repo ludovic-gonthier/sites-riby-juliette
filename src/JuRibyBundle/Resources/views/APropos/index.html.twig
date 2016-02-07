@@ -1,0 +1,65 @@
+{% extends 'JuRibyBundle:Layout:base.html.twig' %}
+
+{% block body %}
+<div id="core" class="about">
+    <header>Diplômée de l’École du Paysage de Versailles, et venant des Arts-Appliquées, je développe une démarche sensible et plastique  s’appuyant notamment sur le travail du son.</header>
+
+    <div class="push-left cv">
+        {% image '@JuRibyBundle/Resources/public/images/cv.jpg' %}
+        <img src="{{ asset_url }}" />
+        {% endimage %}
+
+        <div class="link">
+            <a href="{{ asset('bundles/juriby/pdf/cv.pdf') }}">Télécharger mon CV</a>
+        </div>
+    </div>
+    <div class="push-right book">
+        {% image '@JuRibyBundle/Resources/public/images/book.jpg' %}
+        <img src="{{ asset_url }}" />
+        {% endimage %}
+
+        <div class="link">
+            <a href="{{ asset('bundles/juriby/pdf/book.pdf') }}">Télécharger mon book</a>
+        </div>
+    </div>
+    <div class="interest push-left">
+
+        <header>Mes kiffs</header>
+
+        <div class="desc">
+
+            <div class="title">DES SONS</div>
+
+            <div class="text"><i>Black noise</i> Pantha du prince</div>
+
+            <div class="text"><i>Les chroniques</i> de Fran&ccedil;ois Morel</div>
+
+            </br>
+
+            <div class="title">DES LIVRES</div>
+
+            <div class="text"><i>L'amant</i> Marguerite Dumas</div>
+
+            <div class="text"><i>L'insuportable l&eacute;g&egrave;ret&eacute; de l'&ecirc;tre.</i> Kundera</div>
+
+            </br>
+
+            <div class="title">DES FILMS</div>
+
+            <div class="text"><i>Conte d'hiver.</i> Rohmer</div>
+
+            <div class="text"><i>L'amour est un crime parfait</i> les fr&egrave;res Larrieu</div>
+
+            </br>
+
+            <div class="title">DES YEUX</div>
+
+            <div class="text">Soulage</div>
+
+            <div class="text">Negel Peak</div>
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}

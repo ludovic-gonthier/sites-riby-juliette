@@ -1,0 +1,61 @@
+ju_riby:
+    projects:
+        -
+            name: 'Saisir - Être saisi.'
+            description: 'La Digue d’Alfortville.'
+            year: '2013'
+            text: 'Ce travail s’intéresse de manière générale à la dimension exploratoire, au fait de ne pas savoir où l’on va avant de commencer : découvrir un site de l’intérieur, avec des outils qui nous sont propres, se laisser saisir puis s’en emparer à notre tour. Ce que je voulais pour mon diplôme, c’était saisir l’espace, le paysage, un site avec une sensibilité aux sons, et aux seuils. Le site d’Alfortville a vu naître mes expérimentations. Après une lecture de l’espace je me suis lancée dans une nouvelle phase exploratoire, celle du son qui fait projet. C’est par la manipulation de la matière, sa transformation que j’ai testé l’espace. C’est une recherche d’équilibre, de seuil, d’échange entre les différentes atmosphères ressenties, ambiances imaginées.'
+            number: 1
+#            visuals:
+#                -
+#                    type: 'picture'
+#                    picture: ''
+#
+        -
+            name: 'Déborder.'
+            description: 'St Quentin en Yvelines.'
+            year: '2012'
+            number: 2
+            text: 'Dans l’agglomération de St Quentin en Yvelines les usages sont regroupés par types, la ville est divisée par zones d’habitats, zones commerciales, espaces de circulations automobiles, espaces piétons : l’urbain est sectionné.  Avant le carrefour était l’endroit qui rassemblait, lieu de rencontre des populations et des usages. Il est aujourd’hui le lieu de l’exclusion et du retrait. La ville est dirigée par les infrastructures et manque d’espaces fédérateurs, de rassemblements communs et de repères. Ce projet cherche à faire dilater ce noeud et s’appuie sur les qualités du territoire pour faire émerger des espaces majeurs, vecteurs d’identité pour l’agglomération.'
+        -
+            name: 'Bouts de monde.'
+            description: 'Verneuil sur Seine.'
+            year: '2010'
+            number: 3
+            text: 'Verneuil sur Seine apparaît comme le bout de la banlieue, peu de trains s’y arrêtent. On y ressent l’impression d’être arrivé au bout de la ville, au bout de Paris, au bout du monde. Comme toute ville sous l’influence de la métropole elle se développe progressivement et rejoindra bientôt la Seine. Il reste encore un terrain oublié, un site d’anciennes carrières remises en eaux. Comment préserver l’enchantement de se sentir loin de tout et l’impression d’être proche des éléments naturels? Les eaux serviront de rappel : les éléments sont mouvant et les paysages changent aux cours des saisons et des années.'
+        -
+            name: 'Matériaux Inertes, pré-topographie pour un nouveau socle.'
+            description: 'Région Ïle de France.'
+            year: '2013'
+            number: 4
+            text: 'Dans ce travail de groupe nous avons développé la problématique liée au devenir des déchets inertes produits par la région Île de France suite à un partenariat souscrit par la DRIEE, l’Union Nationale des Entreprises de Déchets et la Région elle-même. La commande consistait à proposer des sites potentiels de stockage de déchets en Île de France. Nos efforts se sont davantage concentrés sur le sens porté par les mots «déchets inertes» et «stockage». Ces produits sont en réalité de la matière première qui pourrait être réutilisée dans des projets de paysage. Il est essentiel de prévoir dans la programmation de nos projets, et ce à la plus large échelle possible, la compensation de nos déblais le plus proche de leur lieu d’émission.'
+        -
+            name: 'AOC : agriculture d’origine caprine.'
+            description: 'Satilleu, bassin d’Annonay.'
+            year: 2012
+            number: 5
+            text: 'Comment relancer une dynamique rurale autour de projets collectifs, d’échanges de services et favorisant les circuits courts? Ce travail de groupe s’est penché sur le cas de Satillieu, petite commune qui subit la désertification de son centre bourg et une baisse de son activité. Le projet commence par la réhabilitation d’une usine désaffectée en local de transformation des plantes aromatiques pour l’aromathérapie, les restanques restaurées offrent un ensoleillement idéal pour ces cultures. Le village présente de nombreux espaces de prairies et de bords de rivière : nous proposons de valoriser leur entretient avec un petit troupeau de chèvres communales. L’animal et la pratique agricole donnent un nouveau rythme de vie aux habitants et permettent de tenir des espaces aujourd’hui délaissés.'
+        -
+            name: 'En action.'
+            description: 'Jardinage, bricolage, image.'
+            year: '2010-2013'
+            number: 6
+            text: 'Travailler l’espace c’est aussi se confronter à la pratique du jardinage et à la construction. Réalisation de muret en pierres sèches, taille et élagage : utiliser le vivant pour se façonner un abri. C’est également toucher différents publics par des pratiques plus artistiques et parfois se mettre en scène : Le corps point de vue (rencontre chorégraphiques de Seine St Denis); Cartographie, son et dessin. Scénographie de l’exposition Avant-Post.'
+        -
+            name: 'Le son, fabrique de paysages.'
+            description: 'phonographies.'
+            year: '2012-2014'
+            number: 7
+            text: 'Comment le son nous permet de comprendre l’espace dans lequel nous vivons et comment peut-il faire paysage? J’ai pris le temps d’écouter, je me suis familiarisé avec cette matière et j’ai entrepris de la manipuler.  Comment peut on évoquer, voire invoquer un lieu dans un autre? Enregistrer le paysage d’un lieu puis le diffuser ailleurs, le projeter sur un autre site et voir se qu’il en résulte. Peut-on créer un paysage mental fictif, dans lequel les distances n’ont pas de mesures mais une durée. Appréhender l’espace par le rythme et sa musique. Suit une série d’expérimentations sonores, phonographies, partitions, réalisées alors que j’étais encore à Versailles puis continuées par la suite.'
+        -
+            name: 'Regard.'
+            description: 'Photographies argentiques.'
+            year: '2010-2014'
+            number: 8
+            text: 'Prendre le temps et se poser. Limiter les prises, essayer de n’en faire qu’une seule, la bonne. Se laisser saisir par le lieu que l’on est en train de traverser, essayer de sauver l’instant où le regard s’est arrêté. Comprendre ce qui nous a captivé. La photo argentique me pousse à me concentrer. L’intérêt porté lors de la capture de l’image revient presque à une impression directement dans la mémoire.'
+        -
+            name: 'La ligne.'
+            description: 'Dessins et croquis.'
+            year: '2010-2014'
+            number: 9
+            text: 'Le dessin accompagne le regard que je porte sur l’espace, il m’aide à le scruter et le saisir. Parfois la ligne devient abstraite puis redessine des traits connus. Comment la ligne, la faille expriment les sensations ? Comment le cadrage décide un regard ? Quoi retenir d’un lieu, un contraste, une densité, une couleur?'

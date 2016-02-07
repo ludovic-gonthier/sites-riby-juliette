@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: Avenir Next condensed italic;
+    src: url(fonts/avenir_next_condensed_italic.otf);
+}
+
+@font-face {
     font-family: Myriad Pro Condensed;
     src: url(fonts/myriadpro_condensed.otf);
 }

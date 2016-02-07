@@ -1,4 +1,25 @@
 {% extends 'JuRibyBundle:Layout:base.html.twig' %}
 
 {% block body %}
+
+<div id="core" class="project">
+    <div class="pj-container">
+        {% for project in projects %}
+        <div class="pj">
+            <a href="{{ path('ju_riby_projects', { 'project': project.number }) }}">
+                <header>
+                    <div class="desc push-left">
+                        <h3>{{ project.name }}</h3>
+                        <span>{{ project.description }}</span>
+                    </div>
+                    <div class="year">{{ project.year }}</div>
+                    <footer></footer>
+                </header>
+                <img src="{{ asset('/bundles/juriby/images/projects/' ~ project.number ~ '/project.min.jpg') }}" />
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
 {% endblock %}

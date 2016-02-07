@@ -1,4 +1,5 @@
 imports:
+    - { resource: "@JuRibyBundle/Resources/config/projects.yml" }
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
@@ -73,13 +74,3 @@ assetic:
     use_controller: '%kernel.debug%'
     filters:
         cssrewrite: ~
-    assets:
-        aracne_light:
-            inputs: '@JuRibyBundle/Resources/public/css/fonts/aracne_light.otf'
-            output: 'css/fonts/aracne_light.otf'
-        avenir_next_condensed:
-            inputs: '@JuRibyBundle/Resources/public/css/fonts/avenir_next_condensed.ttf'
-            output: 'css/fonts/avenir_next_condensed.ttf'
-        myriad_pro_condensed:
-            inputs: '@JuRibyBundle/Resources/public/css/fonts/myriadpro_condensed.otf'
-            output: 'css/fonts/myriadpro_condensed.otf'
