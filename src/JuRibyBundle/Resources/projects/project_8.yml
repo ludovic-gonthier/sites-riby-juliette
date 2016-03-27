@@ -1,0 +1,23 @@
+project:
+    name: 'Regard.'
+    description: 'Photographies argentiques.'
+    year: '2010-14'
+    number: 8
+    text: 'Prendre le temps et se poser. Limiter les prises, essayer de n’en faire qu’une seule, la bonne. Se laisser saisir par le lieu que l’on est en train de traverser, essayer de sauver l’instant où le regard s’est arrêté. Comprendre ce qui nous a captivé. La photo argentique me pousse à me concentrer. L’intérêt porté lors de la capture de l’image revient presque à une impression directement dans la mémoire.'
+    visuals:
+        1: { type: 'picture' }
+        2: { type: 'picture' }
+        3: { type: 'picture' }
+        4: { type: 'picture' }
+        5: { type: 'picture' }
+        6: { type: 'picture' }
+        7: { type: 'picture' }
+        8: { type: 'picture' }
+        9: { type: 'picture' }
+        10: { type: 'picture' }
+        11: { type: 'picture' }
+        12: { type: 'picture' }
+        13: { type: 'picture' }
+        14: { type: 'picture' }
+        15: { type: 'picture' }
+        16: { type: 'picture' }

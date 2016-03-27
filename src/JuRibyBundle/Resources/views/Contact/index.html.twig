@@ -1,0 +1,29 @@
+{% extends 'JuRibyBundle:Layout:base.html.twig' %}
+
+{% block metas %}
+    <title>Juliette Riby - Contact</title>
+{% endblock %}
+
+{% block body %}
+<div id="core" class="contact">
+    <div class="info push-left">
+        <div>
+            <div>Juliette Riby</div>
+            <div class="job">paysagiste DPLG</div>
+        </div>
+        </br>
+        <div class="mail">ribyjuliette@hotmail.fr</div>
+        </br>
+        <div class="adress">
+            <div>06 71 89 50 02</div>
+            <div>53 rue boulard</div>
+            <div>75014 PARIS</div>
+        </div>
+    </div>
+    <div class="image push-right">
+        {% image '@JuRibyBundle/Resources/public/images/contact.jpg' %}
+        <img src="{{ asset_url }}"/>
+        {% endimage %}
+    </div>
+</div>
+{% endblock %}

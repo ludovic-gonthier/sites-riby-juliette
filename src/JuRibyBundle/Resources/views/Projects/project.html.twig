@@ -1,0 +1,54 @@
+{% extends 'JuRibyBundle:Layout:base.html.twig' %}
+
+{% set root = '/bundles/juriby/images/projects' %}
+
+{% block metas %}
+    <title>Juliette Riby - {{ project.name }}</title>
+{% endblock %}
+
+{% block body %}
+
+<img id="loading_image"/>
+<div id="project">
+	<div class="description">
+		<header>
+			<div class="desc">
+				<h3>{{ project.name }}</h3>
+				</br>
+				<span>{{ project.description }}</span>
+			</div>
+			<div class="year">{{ project.year }}</div>
+		</header>
+		<div class="text">{{ project.text }}</div>
+	</div>
+
+	<div class="render">
+		<div class="nav nav-left"></div>
+		<div class="display">
+            {% if project.visuals[1].type == 'picture' %}
+            <img src="{{ asset(root ~ '/' ~ project.number ~ '/1.jpg') }}"/>
+            {% else %}
+            <iframe width="862"
+                height="646"
+                scrolling="no"
+                frameborder="no"
+                src="{{ project.visuals[1].source }}">
+            </iframe>
+            {% endif %}
+		</div>
+		<div class="nav nav-right"></div>
+		<div class="container">
+			{% for image, visual in project.visuals %}
+			<img class="element"
+				 src="{{ asset(root ~ '/' ~ project.number ~ '/' ~ image ~ '.min.jpg') }}"
+				 width="200"
+				 data-url="{{ asset(root ~ '/' ~ project.number ~ '/' ~ image ~ '.jpg') }}"
+				 data-source="{{ visual.source|default('') }}"
+				 data-type="{{ visual.type|default('') }}"
+				 data-source-type="{{ visual.final_type|default('') }}"/>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+{% endblock %}

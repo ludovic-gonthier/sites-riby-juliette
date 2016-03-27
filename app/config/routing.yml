@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+ju_riby:
+    resource: "@JuRibyBundle/Resources/config/routing.yml"
+    prefix:   /
+

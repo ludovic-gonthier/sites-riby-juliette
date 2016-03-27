@@ -1,0 +1,26 @@
+project:
+    name: 'La ligne.'
+    description: 'Dessins et croquis.'
+    year: '2010-14'
+    number: 9
+    text: 'Le dessin accompagne le regard que je porte sur l’espace, il m’aide à le scruter et le saisir. Parfois la ligne devient abstraite puis redessine des traits connus. Comment la ligne, la faille expriment les sensations ? Comment le cadrage décide un regard ? Quoi retenir d’un lieu, un contraste, une densité, une couleur?'
+    visuals:
+        1: { type: 'picture' }
+        2: { type: 'picture' }
+        3: { type: 'picture' }
+        4: { type: 'picture' }
+        5: { type: 'picture' }
+        6: { type: 'picture' }
+        7: { type: 'picture' }
+        8: { type: 'picture' }
+        9: { type: 'picture' }
+        10: { type: 'picture' }
+        11: { type: 'picture' }
+        12: { type: 'picture' }
+        13: { type: 'picture' }
+        14: { type: 'picture' }
+        15: { type: 'picture' }
+        16: { type: 'picture' }
+        17: { type: 'picture' }
+        18: { type: 'picture' }
+        19: { type: 'picture' }

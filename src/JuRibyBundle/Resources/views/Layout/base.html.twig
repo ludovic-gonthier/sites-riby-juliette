@@ -1,0 +1,55 @@
+{%
+set menus = [
+    { 'label': 'PROJECTS', 'route': 'ju_riby_homepage' },
+    { 'label': 'À PROPOS', 'route': 'ju_riby_a_propos' },
+    { 'label': 'CONTACT', 'route': 'ju_riby_contact' },
+]
+%}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block metas %}{% endblock %}
+
+        {% block scripts %}
+        {% javascripts
+            '@JuRibyBundle/Resources/public/js/*'
+        %}
+        <script src="{{ asset_url }}" ></script>
+        {% endjavascripts %}
+        {% endblock %}
+
+        {% stylesheets
+            'bundles/juriby/css/reset.css'
+            'bundles/juriby/css/fonts.css'
+            'bundles/juriby/css/core.css'
+            filter="cssrewrite"
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+        {% block stylesheets %}{% endblock %}
+
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+
+    <body>
+        {% block header %}
+        <header>
+            <h1>RIBY JULIETTE</h1>
+            {% for menu in menus %}
+            <a href="{{ path(menu.route) }}">
+                <h2 {% if 'ju_riby_' ~ _menu.selected == menu.route %}
+                    class='selected'
+                    {% endif %}
+                >
+                    {{ menu.label }}
+                </h2>
+            </a>
+            {% endfor %}
+        </header>
+        {% endblock %}
+
+        {% block body %}{% endblock %}
+    </body>
+</html>
+

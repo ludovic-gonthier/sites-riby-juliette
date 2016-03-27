@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace JuRibyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class JuRibyBundle extends Bundle
 {
 }

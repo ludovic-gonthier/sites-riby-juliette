@@ -1,0 +1,377 @@
+/*
+Blue : #006dbd
+*/
+body{
+	background : url("img/bg.jpg") no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family : Myriad Pro Condenced, Verdana;
+	text-align:justify;
+}
+body > header{
+	background-color : #006dbd;
+	width : 265px;
+	height : 124px;
+	position : absolute;
+	left : 0;
+	right : 0;
+}
+body > header h1{
+	width : 100%;
+	color : white;
+	text-align : center;
+	font-family : Aracne light;
+	font-size : 61pt;
+	line-height : 94px;
+	font-weight : normal;
+}
+body > header h2{
+	float : left;
+	width : 33%;
+	font-family : Myriad Pro Condensed;
+	font-size : 17pt;
+	line-height : 17pt;
+	text-align : center;
+	font-weight : normal;
+}
+body > header h2.selected{
+    font-weight: bold;
+}
+body > header a:link,
+body > header a:visited,
+body > header a:active{
+	text-decoration : none;
+	color : white;
+}
+body > footer{
+	height : 150px;
+	margin-top : 182px;
+}
+.push-left{
+	float : left;
+}
+.push-right{
+	float : right;
+}
+body div#core{
+	position : relative;
+	overflow : hidden;
+	margin : 0 auto;
+	width : 1024px;
+	padding : 0 128px;
+	height : auto;
+	top : 182px;
+}
+/*
+**	PROJECTS
+*/
+body #core.project .pj-container{
+	position : relative;
+	overflow : hidden;
+	width : 100%;
+}
+body #core.project .pj{
+	width : 302px;
+	height : 214px;
+	margin-left : 59px;
+	float : left;
+	margin-bottom : 65px;
+	z-index : 1;
+}
+body #core.project .pj:nth-child(3n+1){
+	margin-left : 0;
+}
+body #core.project .pj:hover header{
+	display : block;
+}
+body #core.project .pj header{
+	display : none;
+	position : absolute;
+	color : black;
+	width : 302px;
+	min-height : 47px;
+	background-color : white;
+	font-family : Avenir Next condensed;
+	z-index : 2;
+}
+body #core.project .pj header .desc{
+	font-size : 12pt;
+	float : left;
+	min-height : 40px;
+	width : 192px;
+	margin-top : 9px;
+	padding-left : 8px;
+	font-family : Avenir Next condensed Ultra Light;
+	color : #b3b3b3;
+}
+body #core.project .pj header .desc span{
+	display : block;
+	padding-bottom : 7px;
+    font-weight: bold;
+}
+body #core.project .pj header .desc h3{
+	font-family : Avenir Next condensed;
+	color : #393939;
+	margin-bottom : 5px;
+	font-weight : normal;
+}
+body #core.project .pj header .year{
+	width : 82px;
+	height : 40px;
+	float : right;
+	padding : 0 10px;
+	line-height : 50px;
+	font-size : 18pt;
+	text-align : center;
+}
+body #core.project .pj header footer{
+	float : left;
+	width : 100%;
+	height : 6px;
+	border-top : 1px solid #90c4e3;
+	background-color : #006dbd;
+}
+body #core.project .pj a{
+	display : block;
+	position : relative;
+	width : 100%;
+	height : 100%;
+	z-index : 1;
+}
+body #core.project .pj img{
+	position : relative;
+	display : block;
+	background-color : white;
+	width : 100%;
+	height : 100%;
+}
+/*
+**	CONTACT
+*/
+body #core.contact{
+	padding-right : 148px;
+	padding-left : 148px;
+	width : 945px;
+	height : 637px;
+}
+body #core.contact .info{
+	margin-top : 136px;
+	padding : 17px;
+	font-size : 28pt;
+	padding-left : 20px;
+	font-family : Avenir Next condensed Ultra Light;
+    background-color: white;
+}
+body #core.contact .info .job{
+	font-size : 20pt;
+	margin-top : 2px;
+}
+body #core.contact .info .mail{
+	margin-top : 9px;
+}
+body #core.contact .info .adress{
+	margin-top : 18px;
+}
+body #core.contact .img{
+	margin-top : 19px;
+}
+body #core.contact .img img{
+	display : block;
+}
+/*
+**	ABOUT
+*/
+body #core.about header{
+	font-family : Avenir Next condensed;
+	font-size : 14pt;
+	height : 80px;
+	margin-top : 50px;
+
+}
+body #core.about .cv,
+body #core.about .book{
+	margin-top : 55px;
+}
+body #core.about .cv{
+	width : 536px;
+	height : auto;
+}
+body #core.about .cv img{
+	display : block;
+}
+body #core.about .book{
+	width : 268px;
+	height : auto;
+}
+body #core.about .link{
+	padding-top : 53px;
+}
+body #core.about .link a,
+body #core.about .interest header{
+	display : block;
+	width : 100%;
+	text-align : center;
+	color : #006dbd;
+	font-family : Avenir Next condensed italic;
+	font-size : 16pt;
+	margin-bottom : 25px;
+	text-decoration: none;
+}
+body #core.about .interest{
+	position : relative;
+	margin : 0 auto;
+	width : 1024px;
+	min-height : 564px;
+	top : 125px;
+	clear : both;
+}
+body #core.about .interest .desc{
+	background : url(img/interest.png) no-repeat transparent;
+	background-position : center right;
+	width : 100%;
+	height : 610px;
+}
+body #core.about .interest .desc aside{
+    background-color: white;
+}
+body #core.about .interest .desc .title:first-child{
+	padding-top : 63px;
+}
+body #core.about .interest .desc .title{
+	color : #393939;
+	font-size : 14pt;
+	margin-bottom : 14px;
+	margin-top : 24px;
+}
+body #core.about .interest .desc .text{
+	font-family : Avenir Next condensed Ultra Light;
+	font-size : 16pt;
+	color : #787878;
+}
+/*
+**
+*/
+#project .description{
+	width : 265px;
+	position : absolute;
+	left : 0px;
+	top : 124px;
+}
+#project .description header{
+	font-family : Avenir Next condensed;
+	overflow : hidden;
+	background-color : white;
+}
+#project .description header .desc{
+	font-size : 10pt;
+	float : left;
+	min-height : 50px;
+	width : 142px;
+	margin-top : 9px;
+	padding-left : 8px;
+	font-family : Avenir Next condensed Ultra Light;
+	color : #b3b3b3;
+}
+#project .description header .desc span{
+	display : block;
+	padding-bottom : 17px;
+}
+#project .description header .desc h3{
+	font-family : Avenir Next condensed;
+	font-size : 12pt;
+	color : #393939;
+	margin-bottom : -10px;
+	font-weight : normal;
+}
+#project .description header .year{
+	width : 80px;
+	height : 50px;
+	float : right;
+	padding-left : 10px;
+	padding-right : 25px;
+	line-height : 50px;
+	font-size : 18pt;
+}
+#project .description .text{
+	background-color : #f2f8fc;
+	font-family : Avenir Next condensed Ultra Light;
+	font-size : 13pt;
+	padding : 12px 17px;
+}
+#project .render{
+	position : relative;
+	overflow: hidden;
+	/*margin : 0 auto;*/
+	top : 176px;
+
+}
+#project .render .nav{
+	height : 646px;
+	float : left;
+	width : 75px;
+	cursor : pointer;
+}
+#project .render .nav.nav-left{
+	background: url(img/left-arrow.png) no-repeat;
+	background-position : center center;
+}
+#project .render .nav.nav-right{
+	background: url(img/right-arrow.png) no-repeat;
+	background-position : center center;
+}
+#project .render .display{
+	float : left;
+	position : relative;
+	background-color : white;
+	margin-bottom: 50px;
+}
+#project .render .display.loading{
+	background-color : black;
+	opacity: 0.25;
+}
+#project .render .display img,
+#project .render .display iframe{
+	display : block;
+}
+#project .render .container{
+	overflow : hidden;
+	width : 862px;
+	margin: 0 auto;
+}
+#project .render .container img{
+	float : left;
+	margin : 20px 0;
+	margin-left : 104px;
+	width : 214px;
+	height : 150px;
+	border : 2px solid white;
+	cursor : pointer;
+}
+#project .render .container img.selected{
+	border : 2px solid #006dbd;
+}
+#project .render .container img:nth-child(3n+1){
+	margin-left : 0;
+}
+#loading_image{
+	position: absolute;
+	top : -99999px;
+	left : -99999px;
+}
+
+/* Error pages */
+span.error {
+	border : 2px solid #006dbd;
+    background-color: white;
+    color: #006dbd;
+	font-family : Myriad Pro Condenced, Verdana;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

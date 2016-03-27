@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Aracne light;
+    src: url(fonts/aracne_light.otf);
+}
+
+@font-face {
+    font-family: Avenir Next condensed;
+    src: url(fonts/avenir_next_condensed.otf);
+}
+
+@font-face {
+    font-family: Avenir Next condensed Ultra Light;
+    src: url(fonts/avenir_next_condensed_ultra_light.otf);
+}
+
+@font-face {
+    font-family: Avenir Next condensed italic;
+    src: url(fonts/avenir_next_condensed_italic.otf);
+}
+
+@font-face {
+    font-family: Myriad Pro Condensed;
+    src: url(fonts/myriadpro_condensed.otf);
+}

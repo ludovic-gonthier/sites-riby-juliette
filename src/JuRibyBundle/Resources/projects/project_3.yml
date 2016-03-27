@@ -1,0 +1,11 @@
+project:
+    name: 'Bouts de monde.'
+    description: 'Verneuil sur Seine.'
+    year: '2010'
+    number: 3
+    text: 'Verneuil sur Seine apparaît comme le bout de la banlieue, peu de trains s’y arrêtent. On y ressent l’impression d’être arrivé au bout de la ville, au bout de Paris, au bout du monde. Comme toute ville sous l’influence de la métropole elle se développe progressivement et rejoindra bientôt la Seine. Il reste encore un terrain oublié, un site d’anciennes carrières remises en eaux. Comment préserver l’enchantement de se sentir loin de tout et l’impression d’être proche des éléments naturels? Les eaux serviront de rappel : les éléments sont mouvant et les paysages changent aux cours des saisons et des années.'
+    visuals:
+        1: { type: 'picture' }
+        2: { type: 'picture' }
+        3: { type: 'picture' }
+        4: { type: 'picture' }
